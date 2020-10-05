@@ -1,0 +1,35 @@
+.standard
+  padding: 90px 0 130px
+  background-color: $section-color
+  &-block
+    display: flex
+    justify-content: space-between
+  &-photo
+    position: relative
+    width: 450px
+    height: 300px
+    overflow: hidden
+    border: 1px solid #fff
+    box-shadow: 0 0 5px #777
+  &-img
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate3d(-50%, -50%, 0)
+  &-title
+    margin-bottom: 60px
+    position: relative
+    &::after
+      content: ''
+      position: absolute
+      top: 45px
+      left: 0
+      background-color: $sec-color
+      width: 64px
+      height: 2px
+  &-text
+    font-size: 14px
+    line-height: 20px
+    font-weight: 400
+    color: $text-color
+    max-width: 410px
