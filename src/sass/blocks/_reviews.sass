@@ -1,0 +1,47 @@
+.reviews
+  padding: 108px 0 101px
+  &__title
+    &::after
+      content: ''
+      display: block
+      margin: 30px auto 0
+      background-color: $sec-color
+      width: 64px
+      height: 2px
+  &__subtitle
+    margin-bottom: 55px
+  &-inner
+    display: flex
+    justify-content: space-around
+  &__text
+    background-color: $section-color
+    padding: 24px 12px
+    max-width: 270px
+    font-size: 14px
+    font-weight: 400
+    font-style: italic
+    color: $text-color
+    border-radius: 3px
+    margin-bottom: 25px
+    position: relative
+    &::after
+      content: ''
+      position: absolute
+      left: 25px
+      bottom: -25px
+      border: 10px solid transparent
+      border-top: 15px solid $section-color
+  &__photo
+    width: 70px
+    height: 70px
+    border-radius: 50%
+    float: left
+    margin-right: 15px
+  &__name
+    margin-top: 40px
+    font-size: 20px
+    font-weight: 700
+  &__prof
+    font-size: 14px
+    font-weight: 400
+    color: $text-color

@@ -10,13 +10,14 @@
     overflow: hidden
     border: 1px solid #fff
     box-shadow: 0 0 5px #777
+    margin-top: 20px
   &-img
     position: absolute
     top: 50%
     left: 50%
     transform: translate3d(-50%, -50%, 0)
-  &-title
-    margin-bottom: 60px
+  &__title
+    margin: 0 0 60px
     position: relative
     &::after
       content: ''
@@ -31,7 +32,7 @@
     line-height: 20px
     font-weight: 400
     color: $text-color
-    margin-bottom: 46px
+    margin-bottom: 40px
     max-width: 410px
   &-list
     padding: 0
@@ -39,7 +40,9 @@
     &__item
       list-style: none
       display: flex
-      margin-bottom: 42px
+      margin-bottom: 40px
+      &:last-of-type
+        margin-bottom: 0
     &__img
       height: 40px
       width: 40px
