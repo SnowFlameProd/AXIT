@@ -1,0 +1,42 @@
+.download
+  background-color: $main-color
+  padding: 74px 0 60px
+  &__title
+    color: #fff
+    &::after
+      content: ''
+      display: block
+      margin: 30px auto 0
+      background-color: #fff
+      width: 64px
+      height: 2px
+      box-shadow: 0 0 5px #777
+  &__subtitle
+    display: block
+    color: #fff
+    opacity: .7
+    font-family: 'Raleway', sans-serif
+    font-size: 16px
+    font-weight: 300
+    text-align: center
+  &-btn
+    display: block
+    margin: 30px auto
+    background: transparent
+    border: 2px solid #fff
+    &:hover
+      background: darken($main-color, 12%)
+  &-img
+    position: relative
+    width: 450px
+    height: 300px
+    overflow: hidden
+    margin: 0 auto
+    border: 1px solid #fff
+    box-shadow: 0 0 5px #777
+    img
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate3d(-50%, -50%, 0)
+      
